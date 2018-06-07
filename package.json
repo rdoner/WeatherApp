@@ -5,9 +5,11 @@
   "main": "index.js",
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "postinstall": "webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -22,20 +24,13 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-preset-stage-1": "^6.1.18",
+    "express": "^4.16.3",
     "lodash": "^3.10.1",
-<<<<<<< HEAD
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "react-redux": "4.3.0",
-    "react-router": "^2.0.1",
-    "react-sparklines": "^1.6.0",
-    "redux": "^3.0.4",
-    "redux-promise": "^0.5.3"
-=======
     "react": "16.3.2",
-    "react-dom": "16.3.2",
-    "react-redux": "5.0.7",
-    "redux": "4.0.0"
->>>>>>> cc77442f71b42b0e74973334e2f45e44d033d4f3
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-sparklines": "^1.7.0",
+    "redux": "^4.0.0",
+    "redux-promise": "^0.6.0"
   }
 }
