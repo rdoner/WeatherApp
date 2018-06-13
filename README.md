@@ -1,6 +1,8 @@
-# ReduxSimpleStarter
+# Weather app
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+I built this app as part of the Modern React With Redux Course by Stephen Grider. I integrated calls to the open weather maps and google maps API's to provide temperature, pressure, and humidity information as well as a map of the searched city. The charts were made using the Sparklines library.
+
+![](images/Weather-lookup-gif.gif)
 
 ### Getting Started
 
@@ -11,7 +13,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> cd WeatherApp
 > npm install
 > npm start
 ```
@@ -23,5 +25,3 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
-
-![](images/Weather-lookup-gif.gif)
