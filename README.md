@@ -4,6 +4,9 @@ I built this app as part of the Modern React With Redux Course by Stephen Grider
 
 ![](images/Weather-lookup-gif.gif)
 
+## Demo
+https://floating-sea-80662.herokuapp.com/
+
 ### Getting Started
 
 There are two methods for getting started with this repo.
@@ -25,3 +28,8 @@ Click [here](https://github.com/rdoner/WeatherApp.git) then download the .zip fi
 > npm install
 > npm start
 ```
+## Author
+Ryan Doner
+
+## License
+MIT
